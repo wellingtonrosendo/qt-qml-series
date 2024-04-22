@@ -1,0 +1,168 @@
+[
+    {
+        "classes": [
+            {
+                "className": "SeriesSearch",
+                "object": true,
+                "properties": [
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 0,
+                        "name": "isSearching",
+                        "notify": "isSearchingChanged",
+                        "read": "isSearching",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "bool",
+                        "user": false
+                    }
+                ],
+                "qualifiedClassName": "SeriesSearch",
+                "signals": [
+                    {
+                        "access": "public",
+                        "name": "isSearchingChanged",
+                        "returnType": "void"
+                    }
+                ],
+                "slots": [
+                    {
+                        "access": "public",
+                        "name": "searchSeries",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "name",
+                                "type": "QString"
+                            }
+                        ],
+                        "name": "searchSeriesByName",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "parseData",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "parseDataList",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QAbstractListModel"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "SeriesSearch.h",
+        "outputRevision": 68
+    },
+    {
+        "classes": [
+            {
+                "className": "AnimalModel",
+                "object": true,
+                "qualifiedClassName": "AnimalModel",
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QAbstractListModel"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "model.h",
+        "outputRevision": 68
+    },
+    {
+        "classes": [
+            {
+                "className": "TvSeries",
+                "object": true,
+                "properties": [
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 0,
+                        "name": "name",
+                        "notify": "nameChanged",
+                        "read": "name",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false,
+                        "write": "setName"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 1,
+                        "name": "url",
+                        "notify": "urlChanged",
+                        "read": "url",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false,
+                        "write": "setUrl"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 2,
+                        "name": "rating",
+                        "notify": "ratingChanged",
+                        "read": "rating",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "double",
+                        "user": false,
+                        "write": "setRating"
+                    }
+                ],
+                "qualifiedClassName": "TvSeries",
+                "signals": [
+                    {
+                        "access": "public",
+                        "name": "nameChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "urlChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "ratingChanged",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "tvseries.h",
+        "outputRevision": 68
+    }
+]

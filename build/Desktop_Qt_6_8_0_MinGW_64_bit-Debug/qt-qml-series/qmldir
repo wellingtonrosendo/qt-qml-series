@@ -2,4 +2,6 @@ module qt-qml-series
 typeinfo appqt-qml-series.qmltypes
 prefer :/qt-qml-series/
 Main 1.0 Main.qml
+CardItem 1.0 CardItem.qml
+SearchField 1.0 SearchField.qml
 

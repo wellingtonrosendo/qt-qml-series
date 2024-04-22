@@ -8,60 +8,9 @@
 	[
 		"C:/Users/TonTonezz/Desktop/Challange/qt-qml-series/CMakeLists.txt",
 		"C:/Users/TonTonezz/Desktop/Challange/qt-qml-series/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/.qtc/package-manager/auto-setup.cmake",
-		"C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CMakeDetermineSystem.cmake",
-		"C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CMakeSystem.cmake.in",
 		"C:/Users/TonTonezz/Desktop/Challange/qt-qml-series/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/CMakeFiles/3.27.7/CMakeSystem.cmake",
-		"C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CMakeNinjaFindMake.cmake",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CMakeSystemSpecificInitialize.cmake",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/Platform/Windows-Initialize.cmake",
-		"C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CMakeDetermineCXXCompiler.cmake",
-		"C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CMakeDetermineCompiler.cmake",
-		"C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/Platform/Windows-Determine-CXX.cmake",
-		"C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake",
-		"C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CMakeCompilerIdDetection.cmake",
-		"C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/Compiler/ADSP-DetermineCompiler.cmake",
-		"C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/Compiler/ARMCC-DetermineCompiler.cmake",
-		"C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/Compiler/ARMClang-DetermineCompiler.cmake",
-		"C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/Compiler/AppleClang-DetermineCompiler.cmake",
-		"C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/Compiler/Clang-DetermineCompilerInternal.cmake",
-		"C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/Compiler/Borland-DetermineCompiler.cmake",
-		"C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/Compiler/Clang-DetermineCompiler.cmake",
-		"C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/Compiler/Clang-DetermineCompilerInternal.cmake",
-		"C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake",
-		"C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake",
-		"C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/Compiler/Cray-DetermineCompiler.cmake",
-		"C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/Compiler/Embarcadero-DetermineCompiler.cmake",
-		"C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/Compiler/Fujitsu-DetermineCompiler.cmake",
-		"C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake",
-		"C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/Compiler/GHS-DetermineCompiler.cmake",
-		"C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake",
-		"C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/Compiler/HP-CXX-DetermineCompiler.cmake",
-		"C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/Compiler/IAR-DetermineCompiler.cmake",
-		"C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake",
-		"C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/Compiler/Intel-DetermineCompiler.cmake",
-		"C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake",
-		"C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake",
-		"C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/Compiler/MSVC-DetermineCompiler.cmake",
-		"C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/Compiler/NVHPC-DetermineCompiler.cmake",
-		"C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/Compiler/NVIDIA-DetermineCompiler.cmake",
-		"C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake",
-		"C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/Compiler/PGI-DetermineCompiler.cmake",
-		"C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/Compiler/PathScale-DetermineCompiler.cmake",
-		"C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/Compiler/SCO-DetermineCompiler.cmake",
-		"C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake",
-		"C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/Compiler/TI-DetermineCompiler.cmake",
-		"C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/Compiler/Tasking-DetermineCompiler.cmake",
-		"C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake",
-		"C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake",
-		"C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/Compiler/Watcom-DetermineCompiler.cmake",
-		"C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/Compiler/XL-CXX-DetermineCompiler.cmake",
-		"C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake",
-		"C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake",
-		"C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake",
-		"C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake",
-		"C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CMakeFindBinUtils.cmake",
-		"C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/Compiler/GNU-FindBinUtils.cmake",
-		"C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CMakeCXXCompiler.cmake.in",
 		"C:/Users/TonTonezz/Desktop/Challange/qt-qml-series/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/CMakeFiles/3.27.7/CMakeCXXCompiler.cmake",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CMakeSystemSpecificInformation.cmake",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CMakeGenericSystem.cmake",
@@ -75,26 +24,11 @@
 		"C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/Compiler/CMakeCommonCompilerMacros.cmake",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/Platform/Windows-GNU-CXX.cmake",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/Platform/Windows-GNU.cmake",
-		"C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CMakeDetermineRCCompiler.cmake",
-		"C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CMakeRCCompiler.cmake.in",
 		"C:/Users/TonTonezz/Desktop/Challange/qt-qml-series/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/CMakeFiles/3.27.7/CMakeRCCompiler.cmake",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CMakeRCInformation.cmake",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/Platform/Windows-windres.cmake",
-		"C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CMakeTestRCCompiler.cmake",
-		"C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CMakeCommonLanguageInclude.cmake",
-		"C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake",
-		"C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CMakeTestCompilerCommon.cmake",
-		"C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake",
-		"C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CMakeParseImplicitIncludeInfo.cmake",
-		"C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CMakeParseImplicitLinkInfo.cmake",
-		"C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CMakeParseLibraryArchitecture.cmake",
-		"C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CMakeTestCompilerCommon.cmake",
-		"C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp",
-		"C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CMakeDetermineCompileFeatures.cmake",
-		"C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/Internal/FeatureTesting.cmake",
-		"C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CMakeCXXCompiler.cmake.in",
-		"C:/Users/TonTonezz/Desktop/Challange/qt-qml-series/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/CMakeFiles/3.27.7/CMakeCXXCompiler.cmake",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/Platform/Windows-GNU-CXX-ABI.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CMakeCommonLanguageInclude.cmake",
 		"C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6/Qt6ConfigVersion.cmake",
 		"C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6/Qt6ConfigVersionImpl.cmake",
 		"C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6/Qt6Config.cmake",
@@ -684,7 +618,27 @@
 	"CMAKE_SOURCE_DIR" : "C:/Users/TonTonezz/Desktop/Challange/qt-qml-series",
 	"DEP_FILE" : "C:/Users/TonTonezz/Desktop/Challange/qt-qml-series/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/appqt-qml-series_autogen/deps",
 	"DEP_FILE_RULE_NAME" : "appqt-qml-series_autogen/timestamp",
-	"HEADERS" : [],
+	"HEADERS" : 
+	[
+		[
+			"C:/Users/TonTonezz/Desktop/Challange/qt-qml-series/SeriesSearch.h",
+			"MU",
+			"EWIEGA46WW/moc_SeriesSearch.cpp",
+			null
+		],
+		[
+			"C:/Users/TonTonezz/Desktop/Challange/qt-qml-series/model.h",
+			"MU",
+			"EWIEGA46WW/moc_model.cpp",
+			null
+		],
+		[
+			"C:/Users/TonTonezz/Desktop/Challange/qt-qml-series/tvseries.h",
+			"MU",
+			"EWIEGA46WW/moc_tvseries.cpp",
+			null
+		]
+	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
 	"INCLUDE_DIR" : "C:/Users/TonTonezz/Desktop/Challange/qt-qml-series/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/appqt-qml-series_autogen/include",
 	"MOC_COMPILATION_FILE" : "C:/Users/TonTonezz/Desktop/Challange/qt-qml-series/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/appqt-qml-series_autogen/mocs_compilation.cpp",
@@ -765,8 +719,11 @@
 	"MOC_RELAXED_MODE" : false,
 	"MOC_SKIP" : 
 	[
+		"C:/Users/TonTonezz/Desktop/Challange/qt-qml-series/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/.rcc/qmlcache/appqt-qml-series_CardItem_qml.cpp",
 		"C:/Users/TonTonezz/Desktop/Challange/qt-qml-series/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/.rcc/qmlcache/appqt-qml-series_Main_qml.cpp",
+		"C:/Users/TonTonezz/Desktop/Challange/qt-qml-series/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/.rcc/qmlcache/appqt-qml-series_SearchField_qml.cpp",
 		"C:/Users/TonTonezz/Desktop/Challange/qt-qml-series/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/.rcc/qmlcache/appqt-qml-series_qmlcache_loader.cpp",
+		"C:/Users/TonTonezz/Desktop/Challange/qt-qml-series/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/.rcc/qmlcache/appqt-qml-series_view_qml.cpp",
 		"C:/Users/TonTonezz/Desktop/Challange/qt-qml-series/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/.rcc/qrc_appqt-qml-series_raw_qml_0.cpp",
 		"C:/Users/TonTonezz/Desktop/Challange/qt-qml-series/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/.rcc/qrc_qmake_qt-qml-series.cpp",
 		"C:/Users/TonTonezz/Desktop/Challange/qt-qml-series/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/appqt-qml-series_qmltyperegistrations.cpp"
@@ -782,7 +739,22 @@
 	"SOURCES" : 
 	[
 		[
+			"C:/Users/TonTonezz/Desktop/Challange/qt-qml-series/SeriesSearch.cpp",
+			"MU",
+			null
+		],
+		[
 			"C:/Users/TonTonezz/Desktop/Challange/qt-qml-series/main.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/TonTonezz/Desktop/Challange/qt-qml-series/model.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/TonTonezz/Desktop/Challange/qt-qml-series/tvseries.cpp",
 			"MU",
 			null
 		]
@@ -791,8 +763,11 @@
 	"UIC_SEARCH_PATHS" : [],
 	"UIC_SKIP" : 
 	[
+		"C:/Users/TonTonezz/Desktop/Challange/qt-qml-series/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/.rcc/qmlcache/appqt-qml-series_CardItem_qml.cpp",
 		"C:/Users/TonTonezz/Desktop/Challange/qt-qml-series/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/.rcc/qmlcache/appqt-qml-series_Main_qml.cpp",
+		"C:/Users/TonTonezz/Desktop/Challange/qt-qml-series/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/.rcc/qmlcache/appqt-qml-series_SearchField_qml.cpp",
 		"C:/Users/TonTonezz/Desktop/Challange/qt-qml-series/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/.rcc/qmlcache/appqt-qml-series_qmlcache_loader.cpp",
+		"C:/Users/TonTonezz/Desktop/Challange/qt-qml-series/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/.rcc/qmlcache/appqt-qml-series_view_qml.cpp",
 		"C:/Users/TonTonezz/Desktop/Challange/qt-qml-series/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/.rcc/qrc_appqt-qml-series_raw_qml_0.cpp",
 		"C:/Users/TonTonezz/Desktop/Challange/qt-qml-series/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/.rcc/qrc_qmake_qt-qml-series.cpp",
 		"C:/Users/TonTonezz/Desktop/Challange/qt-qml-series/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/appqt-qml-series_qmltyperegistrations.cpp"
