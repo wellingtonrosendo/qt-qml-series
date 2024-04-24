@@ -1,9 +1,0 @@
-<RCC>
-  <qresource prefix="/qt-qml-series/">
-    <file alias="Main.qml">C:/Users/TonTonezz/Desktop/Challange/qt-qml-series/Main.qml</file>
-    <file alias="CardItem.qml">C:/Users/TonTonezz/Desktop/Challange/qt-qml-series/CardItem.qml</file>
-    <file alias="SearchField.qml">C:/Users/TonTonezz/Desktop/Challange/qt-qml-series/SearchField.qml</file>
-    <file alias="view.qml">C:/Users/TonTonezz/Desktop/Challange/qt-qml-series/view.qml</file>
-  </qresource>
-</RCC>
-
