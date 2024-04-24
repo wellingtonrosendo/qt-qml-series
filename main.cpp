@@ -1,27 +1,12 @@
 #include <QGuiApplication>
 #include <QQmlApplicationEngine>
 #include "SeriesSearch.h"
-// #include "model.h"
 #include <QtQuick/qquickitem.h>
 #include <QtQuick/qquickview.h>
 
 int main(int argc, char *argv[])
 {
     QGuiApplication app(argc, argv);
-
-    // AnimalModel model;
-    // model.addAnimal(Animal("Wolf", "Medium"));
-    // model.addAnimal(Animal("Polar bear", "Large"));
-    // model.addAnimal(Animal("Quoll", "Small"));
-
-    // QQuickView view;
-    // view.setResizeMode(QQuickView::SizeRootObjectToView);
-    // view.setInitialProperties({{"model", QVariant::fromValue(&model)}});
-    // //![0]
-    // view.setSource(QUrl("qrc:/qt-qml-series/view.qml"));
-    // view.show();
-
-    // return app.exec();
 
     QQmlApplicationEngine engine;
 

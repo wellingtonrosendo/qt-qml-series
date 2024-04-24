@@ -17,7 +17,9 @@ public:
     enum SerieRole {
         NameRole=Qt::UserRole + 1,
         UrlRole,
-        RatingRole
+        RatingRole,
+        DescRole,
+        GenreRole
     };
 
     explicit SeriesSearch(QObject *parent = nullptr);
@@ -27,11 +29,13 @@ public:
     virtual QHash<int, QByteArray> roleNames() const override;
     bool isSearching() const;
     void setIsSearching(bool newIsSearching);
+    void loadTvSeries();
 
 private:
     QNetworkAccessManager m_networkManager;
     QNetworkReply *m_reply = nullptr;
     QList<TvSeries*> m_tvSeries;
+    QList<TvSeries*> m_tvSeriesLoad;
     bool m_isSearching;
 
 

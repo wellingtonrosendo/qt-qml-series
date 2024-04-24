@@ -42,3 +42,31 @@ void TvSeries::setRating(double rating)
         emit ratingChanged();
     }
 }
+
+
+QString TvSeries::desc() const
+{
+    return m_desc;
+}
+
+void TvSeries::setDesc(const QString &desc)
+{
+    if (m_desc != desc) {
+        m_desc = desc;
+        emit nameChanged();
+    }
+}
+
+
+QString TvSeries::genre() const
+{
+    return m_genre;
+}
+
+void TvSeries::setGenre(const QString &genre)
+{
+    if (m_genre != genre) {
+        m_genre = genre;
+        emit nameChanged();
+    }
+}
