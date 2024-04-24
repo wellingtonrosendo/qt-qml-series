@@ -136,7 +136,7 @@ void SeriesSearch::parseData()
         QJsonArray genres = result["genres"].toArray();
         QString concatGenres;
         for (const auto &genre: genres) {
-            concatGenres += genre.toString()+"\n";
+            concatGenres += genre.toString()+" ";
         }
 
         tvSerie->setGenre(concatGenres);
@@ -175,7 +175,7 @@ void SeriesSearch::parseDataList()
             QJsonArray genres = entry["show"].toObject()["genres"].toArray();
             QString concatGenres;
             for (const auto &genre: genres) {
-                concatGenres += genre.toString()+"\n";
+                concatGenres += genre.toString()+" ";
             }
 
             tvSerie->setGenre(concatGenres);
