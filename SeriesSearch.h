@@ -29,7 +29,6 @@ public:
     virtual QHash<int, QByteArray> roleNames() const override;
     bool isSearching() const;
     void setIsSearching(bool newIsSearching);
-    void loadTvSeries();
 
 private:
     QNetworkAccessManager m_networkManager;
@@ -45,7 +44,6 @@ signals:
 public slots:
     void searchSeries();
     void searchSeriesByName(const QString &name);
-    void parseData();
     void parseDataList();
 };
 

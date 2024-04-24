@@ -16,22 +16,6 @@ Rectangle {
         font.pixelSize: 14
         color: "white"
 
-
-
-        Image {
-            anchors {
-                left: parent.left
-                leftMargin: 5
-                verticalCenter: parent.verticalCenter
-            }
-
-            width: 16
-            height: 16
-
-            // mipmap: true
-            // source: "assets/icons/search_icon.png"
-            source: ""
-        }
         onAccepted: {
             root.search(text)
         }
