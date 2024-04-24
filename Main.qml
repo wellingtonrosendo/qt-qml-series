@@ -5,9 +5,9 @@ import SeriesSearch
 Window {
 
     maximumWidth: 480
-    maximumHeight: 800
+    maximumHeight: 900
     minimumWidth: 480
-    minimumHeight: 800
+    minimumHeight: 900
 
     visible: true
     title: qsTr("WellingFlix")
