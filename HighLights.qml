@@ -30,7 +30,9 @@ Page {
                 }
                 onSearch: value =>{
                               SeriesSearch.searchSeriesByName(value)
+                              title.text = "Resultado"
                           }
+
             }
 
 
@@ -41,16 +43,23 @@ Page {
             height: 50
             color: "#111111"
             z:2
+            width: 460
             anchors {
                 top: topbar.bottom
                 left: parent.left
                 right: parent.right
+                margins: 10
             }
             Text {
                 id: title
                 text: qsTr("Em alta")
+                width: 460
+                horizontalAlignment: Text.AlignHCenter
                 font.pixelSize: 22
                 color:"white"
+                anchors{
+                    horizontalCenter: parent.horizontalCenter
+                }
             }
 
         }
@@ -113,14 +122,19 @@ Page {
                                 anchors{
                                     verticalCenter: parent.verticalCenter
                                 }
-                                width: 50
+                                width: 60
                                 height: parent.height
                             }
                             Text {
                                 id: serieName
-                                text: delegate.name
+                                text: qsTr(delegate.name)
+                                horizontalAlignment: Text.AlignLeft
+                                wrapMode: Text.WordWrap
+                                font.pixelSize: 18
+                                font.bold: true
                                 anchors {
-                                    bottom: parent.verticalCenter
+                                    margins: 5
+                                    horizontalCenter: parent.horizontalCenter
                                     left: serieImage.right
                                     right: parent.right
                                 }
@@ -128,10 +142,13 @@ Page {
                             }
                             Text {
                                 id: serieRate
-                                text: qsTr(delegate.rating.toString())
+                                text: qsTr("Nota: " + delegate.rating.toString())
+                                horizontalAlignment: Text.AlignLeft
+                                font.pixelSize: 15
                                 anchors {
+                                    margins: 5
                                     top: serieName.bottom
-                                    bottom: parent.verticalCenter
+                                    horizontalCenter: parent.horizontalCenter
                                     left: serieImage.right
                                     right: parent.right
                                 }
@@ -144,8 +161,15 @@ Page {
                             anchors.fill: parent
                             onClicked: {
                                 stackView.push("SerieInfo.qml", { nameSerie: name, urlSerie: url, ratingSerie: rating, descSerie: desc, genreSerie: genre })
+
                             }
                         }
+
+                        Component.onCompleted: {
+                                if (serieName.text.length > 25) {
+                                    serieName.text = serieName.text.substring(0, 20) + "..."
+                                }
+                            }
                     }
                 }
             }
