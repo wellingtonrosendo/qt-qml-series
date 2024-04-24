@@ -57,7 +57,7 @@ Page {
         Rectangle {
             id: mainsection
             color: "#111111"
-            height: 600
+            height: 700
             z:0
             anchors {
                 top: titleContainer.bottom
