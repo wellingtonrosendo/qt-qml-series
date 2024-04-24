@@ -77,8 +77,6 @@ void SeriesSearch::searchSeries()
     foreach (const QString codSerie, listSeries) {
         m_reply = m_networkManager.get(QNetworkRequest(k_requestUrl+ "shows/" + codSerie));
         setIsSearching(true);
-
-        // connect(m_reply, &QNetworkReply::finished, this, &SeriesSearch::parseData);
         connect(m_reply, SIGNAL(finished()), &loop, SLOT(quit()));
         loop.exec();
         QByteArray data = m_reply->readAll();
@@ -101,9 +99,6 @@ void SeriesSearch::searchSeries()
         setIsSearching(false);
         m_tvSeries << tvSerie;
     }
-    // setIsSearching(false);
-    // m_reply->deleteLater();
-    // m_reply = nullptr;
 
 }
 
@@ -115,39 +110,6 @@ void SeriesSearch::searchSeriesByName(const QString &name)
     m_reply = m_networkManager.get(QNetworkRequest(k_requestUrl + "search/shows/?" + query.toString()));
     setIsSearching(true);
     connect(m_reply, &QNetworkReply::finished, this, &SeriesSearch::parseDataList);
-
-}
-
-void SeriesSearch::parseData()
-{
-
-    if (m_reply->error() == QNetworkReply::NoError){
-
-        QByteArray data = m_reply->readAll();
-        QJsonDocument jsonDocument = QJsonDocument::fromJson(data);
-
-        QJsonObject result = jsonDocument.object();
-        TvSeries *tvSerie = new TvSeries(this);
-        tvSerie->setName(result["name"].toString());
-        tvSerie->setUrl(result["image"].toObject()["medium"].toString());
-        tvSerie->setRating(result["rating"].toObject()["average"].toDouble());
-        tvSerie->setDesc(result["summary"].toString());
-        tvSerie->setGenre(result["genres"].toString());
-        QJsonArray genres = result["genres"].toArray();
-        QString concatGenres;
-        for (const auto &genre: genres) {
-            concatGenres += genre.toString()+" ";
-        }
-
-        tvSerie->setGenre(concatGenres);
-        setIsSearching(false);
-        m_tvSeriesLoad << tvSerie;
-
-    }
-    setIsSearching(false);
-    m_reply->deleteLater();
-    m_reply = nullptr;
-
 
 }
 
@@ -199,9 +161,4 @@ void SeriesSearch::setIsSearching(bool newIsSearching)
         return;
     m_isSearching = newIsSearching;
     emit isSearchingChanged();
-}
-
-void SeriesSearch::loadTvSeries()
-{
-
 }

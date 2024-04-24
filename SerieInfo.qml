@@ -108,5 +108,11 @@ Page {
             }
         }
 
+        Component.onCompleted: {
+                if (descSerieInfo.text.length > 790) {
+                    descSerieInfo.text = descSerieInfo.text.substring(0, 787) + "..."
+                }
+            }
+
     }
 }
