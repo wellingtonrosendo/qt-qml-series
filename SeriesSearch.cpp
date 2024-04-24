@@ -15,14 +15,6 @@ namespace {
 SeriesSearch::SeriesSearch(QObject *parent)
     : QAbstractListModel{parent}
 {
-    // TvSeries *tvSerie = new TvSeries(this);
-    // tvSerie->setName("Teste");
-    // tvSerie->setUrl("https://doc.qt.io/style/qt-logo-documentation.svg");
-    // tvSerie->setRating(5.0);
-    // tvSerie->setDesc("bla bla bla");
-
-    // m_tvSeries.append(tvSerie);
-    // searchSeriesByName("walking");
     searchSeries();
 }
 
