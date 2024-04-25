@@ -8,21 +8,14 @@
 #include <QDebug>
 #include <QEventLoop>
 
-namespace {
+namespace
+{
     const QString &k_requestUrl = "https://api.tvmaze.com/";
 }
 
 SeriesSearch::SeriesSearch(QObject *parent)
     : QAbstractListModel{parent}
 {
-    // TvSeries *tvSerie = new TvSeries(this);
-    // tvSerie->setName("Teste");
-    // tvSerie->setUrl("https://doc.qt.io/style/qt-logo-documentation.svg");
-    // tvSerie->setRating(5.0);
-    // tvSerie->setDesc("bla bla bla");
-
-    // m_tvSeries.append(tvSerie);
-    // searchSeriesByName("walking");
     searchSeries();
 }
 
@@ -34,10 +27,12 @@ int SeriesSearch::rowCount(const QModelIndex &parent) const
 
 QVariant SeriesSearch::data(const QModelIndex &index, int role) const
 {
-    if (index.isValid() && index.row() >= 0 && index.row() < m_tvSeries.size()) {
-        TvSeries * tvSerie= m_tvSeries[index.row()];
+    if (index.isValid() && index.row() >= 0 && index.row() < m_tvSeries.size())
+    {
+        TvSeries *tvSerie = m_tvSeries[index.row()];
 
-        switch((SerieRole) role) {
+        switch ((SerieRole)role)
+        {
         case NameRole:
             return tvSerie->name();
         case UrlRole:
@@ -67,15 +62,15 @@ QHash<int, QByteArray> SeriesSearch::roleNames() const
     return names;
 }
 
-
 void SeriesSearch::searchSeries()
 {
-    QList<QString> listSeries = {"15299", "169","66", "73", "2993", "41007", "82", "46562", "44778", "526"};
+    QList<QString> listSeries = {"15299", "169", "66", "73", "2993", "41007", "82", "46562", "44778", "526"};
     QEventLoop loop;
     qDeleteAll(m_tvSeries);
     m_tvSeries.clear();
-    foreach (const QString codSerie, listSeries) {
-        m_reply = m_networkManager.get(QNetworkRequest(k_requestUrl+ "shows/" + codSerie));
+    foreach (const QString codSerie, listSeries)
+    {
+        m_reply = m_networkManager.get(QNetworkRequest(k_requestUrl + "shows/" + codSerie));
         setIsSearching(true);
         connect(m_reply, SIGNAL(finished()), &loop, SLOT(quit()));
         loop.exec();
@@ -91,32 +86,31 @@ void SeriesSearch::searchSeries()
         tvSerie->setGenre(result["genres"].toString());
         QJsonArray genres = result["genres"].toArray();
         QString concatGenres;
-        for (const auto &genre: genres) {
-            concatGenres += genre.toString()+" ";
+        for (const auto &genre : genres)
+        {
+            concatGenres += genre.toString() + " ";
         }
 
         tvSerie->setGenre(concatGenres);
         setIsSearching(false);
         m_tvSeries << tvSerie;
     }
-
 }
 
 void SeriesSearch::searchSeriesByName(const QString &name)
 {
     QUrlQuery query;
 
-    query.addQueryItem("q",name);
+    query.addQueryItem("q", name);
     m_reply = m_networkManager.get(QNetworkRequest(k_requestUrl + "search/shows/?" + query.toString()));
     setIsSearching(true);
     connect(m_reply, &QNetworkReply::finished, this, &SeriesSearch::parseDataList);
-
 }
-
 
 void SeriesSearch::parseDataList()
 {
-    if (m_reply->error() == QNetworkReply::NoError){
+    if (m_reply->error() == QNetworkReply::NoError)
+    {
         beginResetModel();
         qDeleteAll(m_tvSeries);
         m_tvSeries.clear();
@@ -127,7 +121,8 @@ void SeriesSearch::parseDataList()
         QJsonObject headers = jsonDocument["headers"].toObject();
 
         QJsonArray results = jsonDocument.array();
-        for (const auto &result : results) {
+        for (const auto &result : results)
+        {
             QJsonObject entry = result.toObject();
             TvSeries *tvSerie = new TvSeries(this);
             tvSerie->setName(entry["show"].toObject()["name"].toString());
@@ -136,8 +131,9 @@ void SeriesSearch::parseDataList()
             tvSerie->setDesc(entry["show"].toObject()["summary"].toString());
             QJsonArray genres = entry["show"].toObject()["genres"].toArray();
             QString concatGenres;
-            for (const auto &genre: genres) {
-                concatGenres += genre.toString()+" ";
+            for (const auto &genre : genres)
+            {
+                concatGenres += genre.toString() + " ";
             }
 
             tvSerie->setGenre(concatGenres);
